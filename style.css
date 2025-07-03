@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+header {
+  background-color: #006d77;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+nav {
+  background-color: #83c5be;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 20px;
+  display: block;
+}
+nav a:hover {
+  background-color: #006d77;
+}
+.hero {
+  background: #edf6f9;
+  padding: 40px;
+  text-align: center;
+  position: relative;
+  background: url('assets/vaca.avif') center/cover no-repeat;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.hero .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* adjust opacity */
+  z-index: 1;
+}
+
+.hero h2,
+.hero p,
+.hero .cta-button {
+  position: relative;
+  z-index: 2;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: space-around;
+  justify-content: center;
+  gap: 5em;
+  padding: 20px;
+}
+.section {
+  width: 100%;
+  max-width: 800px;
+  padding: 30px;
+  background: #fff;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #006d77;
+  color: white;
+}
+.cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #ffddd2;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.cta-button:hover {
+  background-color: #ffcdb2;
+}
+
+.accommodation-options {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: flex-start;
+  width: 100%;
+}
